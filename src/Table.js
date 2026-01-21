@@ -1,10 +1,11 @@
 import './App.css';
 import TableRow from "./TableRow";
+import "./Table.css";
 
 function Table(props) {
 
     return ( <> 
-            <table>
+     <table>
       <thead>
         <tr>
           <th>Project Title</th>
@@ -18,7 +19,7 @@ function Table(props) {
       </thead>
 
       <tbody>
-        {grants.map((grant, index) => (
+        {props.grants.map((grant, index) => (
           <TableRow key={index} grant={grant} />
         ))}
       </tbody>
