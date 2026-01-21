@@ -15,7 +15,7 @@ function App() {
         setGrant(result.Grants.Grant);
         }
         // useState(result);
-        // console.log(result)
+        console.log(result)
       
     }; 
     fetchGrant();
@@ -34,7 +34,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Test Change
         </a>
       </header>
       <main>
